@@ -131,7 +131,8 @@
     border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 5px;
+      /* 아바타 이미지 여백 제거*/
+      /* padding: 5px; */
       border: 1px solid $border-color;
     }
   }
