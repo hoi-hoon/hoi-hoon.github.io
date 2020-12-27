@@ -5,7 +5,7 @@ excerpt: ""
 categories:
   - Study
 tags:
-  - Study
+  - 
 last_modified_at: 2020-12-10T18:03:00
 ---
 
