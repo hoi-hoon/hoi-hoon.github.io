@@ -15,7 +15,9 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
+    /* padding: 1em; */
+    /* 상단바 크기 조절*/
+    padding: 0.4em;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -25,6 +27,9 @@
     justify-content: space-between;
     font-family: $sans-serif-narrow;
 
+    /* 상단바 텍스트 설정 */
+    font-size: $type-size-4;
+    font-weight: bold;
     @include breakpoint($x-large) {
       max-width: $max-width;
     }
