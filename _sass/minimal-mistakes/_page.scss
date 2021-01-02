@@ -71,7 +71,7 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
-
+  font-family: $dohyeon;
   & + .page__meta {
     margin-top: -0.5em;
   }
@@ -89,6 +89,7 @@ body {
   }
 
 	h1, h2, h3, h4, h5, h6 {
+    font-family: $dohyeon;
 		.header-link {
 			position: relative;
 			left: 0.5em;
