@@ -1,0 +1,41 @@
+<nav class="nav__list">
+  <ul class="nav__items" id="category_tag_menu">
+    <span class="nav__sub-title">Algorithm</span>
+            <ul class="nav__tag-items">
+                {% for tag in site.tags %}
+                    {% if tag[0] == "Programmers" %}
+                        <li><a href="/tags/programmers" class=""> Programmers ({{tag[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul class="nav__tag-items">
+                {% for tag in site.tags %}
+                    {% if tag[0] == "Backjoon" %}
+                        <li><a href="/tags/backjoon" class=""> Backjoon ({{tag[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul class="nav__tag-items">
+                {% for tag in site.tags %}
+                    {% if tag[0] == "LeetCode" %}
+                        <li><a href="/tags/leetcode" class=""> LeetCode ({{tag[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+    <span class="nav__sub-title">Study</span>
+        <ul class="nav__tag-items">
+                {% for tag in site.tags %}
+                    {% if tag[0] == "Live Study" %}
+                        <li><a href="/tags/livestudy" class=""> Live Study ({{tag[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul class="nav__tag-items">
+                {% for tag in site.tags %}
+                    {% if tag[0] == "Study Note" %}
+                        <li><a href="/tags/studynote" class=""> Study Note ({{tag[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+  </ul>
+</nav>

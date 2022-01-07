@@ -173,7 +173,10 @@
 
 .author__bio {
   margin: 0;
-
+  p {
+    font-size: $type-size-5;
+    font-family: $yeonsung;
+  }
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
